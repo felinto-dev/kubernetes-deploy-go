@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "felinto v1"
+const webContent = "felinto v2"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
